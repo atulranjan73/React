@@ -1,0 +1,22 @@
+.container{
+    background:grey;
+    width: 30%;
+    height: 27vh;
+    margin: auto;
+    text-align: center;
+    /* border: 2px solid black; */
+    box-shadow: 2px 3px 3px 3px  rgb(206, 227, 166);
+}
+p{
+   font-size: 30px;
+}
+button{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 15%;
+    box-shadow: 2px 2px 2px 1px  rgb(245, 247, 247);
+}
+button:hover{
+    box-shadow: 2px 2px 22px 1px  rgb(245, 247, 247);
+}
