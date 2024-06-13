@@ -1,0 +1,89 @@
+/* App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 20px;
+    
+  }
+  
+  li {
+    margin-left: 20px;
+   
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  a {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  .product-item {
+    display: flex;
+    flex-direction: column;
+    width: calc(33.33% - 20px); /* Adjust width to fit three items in a row with margin */
+    border: 1px solid #ccc;
+    margin-bottom: 20px; /* Increased margin between rows */
+    margin-right: 20px; /* Margin between items */
+    box-sizing: border-box;
+  }
+  
+  .item {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .img {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .img img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .heading {
+    flex: 1;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  .para {
+    flex: 1;
+    text-align: right;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  #products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute items evenly */
+  }
+  
+  @media (max-width: 768px) {
+    .product-item {
+      width: calc(50% - 20px); /* Adjust for two items in a row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .product-item {
+      width: 100%; /* Full width for single item on smaller screens */
+    }
+  }
+  
