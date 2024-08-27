@@ -55,6 +55,7 @@ function Atul() {
             type="text"
             name="name"
             value={formData.name}
+            // T
             onChange={handleChange}
           />
         </div>
